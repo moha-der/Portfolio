@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>   
+  
+    <link rel="stylesheet" type="text/css" href="/css/navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+    
+      
+  
+    <header>
+        <nav class="navbar">
+            
+            <span class="navbar-toggle" id="js-navbar-toggle">
+                <i class="fa fa-bars"></i>
+            </span>
+            <a href="#" class="logo">Mohammed</a>
+            
+            
+            <ul class="main-nav" id="js-menu">
+                <li>
+                    <div class="long">
+                        <i class="icons fa fa-user "></i>
+                        <div class="secondary-content">
+                            <a href="#" class="nav-links">Sobre mí</a>
+                        </div>
+                        
+                    </div>
+                    
+                </li>
+                <li>
+                    <div class="long">
+                        <i class="icons fa fa-university "></i>
+                        <div class="secondary-content">
+                            <a href="#" class="nav-links">Formación</a>
+                        </div>
+                        
+                    </div>
+                    
+                </li>
+                <li>
+                    <div class="long">
+                        <i class="icons fa fa-code "></i>
+                        <div class="secondary-content">
+                            <a href="#" class="nav-links">Habilidades</a>
+                        </div>                        
+                    </div>  
+                </li>
+                <li>
+                    <div class="long">
+                        <i class="icons fa fa-briefcase "></i>
+                        <div class="secondary-content">
+                            <a href="#" class="nav-links">Experiencia</a>
+                        </div>
+                        
+                    </div>
+                    
+                </li>
+                <li>
+                    <div class="long">
+                        <i class="icons fa fa-at "></i>
+                        <div class="secondary-content">
+                            <a href="#" class="nav-links">Contacto</a>
+                        </div>
+                        
+                    </div>
+                </li>
+            </ul>
+    </nav>
+    </header>
+
+    <div class="banner">
+        
+        <div class="banner-text">
+            <h1> Bienvenido!! </h1>
+        </div>
+          
+    </div>
+    
+
+    <script>
+        let mainNav = document.getElementById('js-menu');
+        let navBarToggle = document.getElementById('js-navbar-toggle');
+
+        navBarToggle.addEventListener('click', function () {
+            
+            mainNav.classList.toggle('active');
+            
+        });
+    </script>
+</body>
+</html>
