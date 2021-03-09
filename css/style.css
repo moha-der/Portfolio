@@ -80,7 +80,7 @@ body {
 }
 
 .banner {
-    background-image: url(images/banner.jpg);
+    background-image: url(../images/banner.jpg);
     height: 250px;
 
     background-position: center;
