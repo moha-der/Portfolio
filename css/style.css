@@ -80,7 +80,7 @@ body {
 }
 
 .banner {
-    background-image: url('https://github.com/moha-der/portfolio/tree/main/images/banner.jpg');
+    background-image: url('https://raw.githubusercontent.com/moha-der/portfolio/main/images/banner.jpg');
     height: 250px;
 
     background-position: center;
