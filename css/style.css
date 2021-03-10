@@ -83,7 +83,7 @@ body {
 
 .banner {
     
-    background-image: url(banner.jpg);
+    background-image: url('banner.jpg');
     height: 250px;
 
     background-position: center;
