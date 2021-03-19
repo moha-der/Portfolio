@@ -11,8 +11,7 @@ body {
 
 /*-------------------------------------Responsive Mobile Design  ------------------------------------------*/
 
-
-.navbar {
+.navbar_content {
     font-size: 18px;
     background-image: linear-gradient(270deg, #0d3b5a 40%, #110729   100%);
     border: 1px solid rgba(0, 0, 0, 0.2);
@@ -27,8 +26,8 @@ body {
     display: none;
 }
 
-.nav-links,
-.logo {
+.nav-links_content,
+.logo_content {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.7);
 }
@@ -42,7 +41,7 @@ body {
 }
 
 
-.nav-links { 
+.nav-links_content { 
     display: inline-block;
     text-align: left;
     border-bottom: 1px solid rgba(255, 255, 255, 0.7); 
@@ -54,7 +53,7 @@ body {
     
 }
 
-.logo {
+.logo_content {
     display: block;
     font-size: 22px;
     margin-top: 10px;
@@ -63,28 +62,27 @@ body {
 
 /* Sirve para cerrar el menú */
 
-.navbar-toggle {
+.navbar-toggle_content {
     position: absolute;
     margin-top: 10px;
     margin-left: 20px;
     cursor: pointer;
     color: rgba(255, 255, 255, 0.8);
     font-size: 24px;
-    width: 40px;
 }
 
-.active {
+.active_content {
     display: block;
 }
 
-.icons {
+.icons_content {
     color: rgba(255, 255, 255, 0.7);
     margin-right: 5px;
 }
 
-.banner {
+.banner_content {
     
-    background-image: url('banner.jpg');
+    background-image: url(/banner.jpg);
     height: 250px;
 
     background-position: center;
@@ -120,21 +118,7 @@ body {
 }
   
 
-.article-container {
-    height: 400px;
-    background-color: blue;
-    padding: 10px;
-    
-}
 
-.sobre-mi {
-    background-color: burlywood;
-    border: 1px solid rgba(255, 255, 255, 0.8);
-    border-radius: 10px;
-    height: 200px;
-    box-shadow: 5px 10px rgba(0, 0, 0, 0.2);
-    text-align: center;
-}
 
 
 
@@ -142,31 +126,86 @@ body {
 
 
 @media screen and (max-width: 250px) {
-    .logo {
+    .logo_content {
        font-size: 16px;
     }
 
-    .navbar-toggle {
+    .navbar-toggle_content {
         font-size: 16px;
     }
 
-    .navbar {
+    .navbar_content {
         font-size: 14px;
     } 
+
+    
+}
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
+
+    
+    .navbar-toggle_content {
+        display: none;
+    }
+
+    .navbar_content {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0;
+        height: 60px;
+        align-items: center;
+    }
+
+    .main-nav {
+        display: flex;        
+        flex-direction: row;
+        justify-content: flex-end;
+        padding-top: 20px;
+        font-size: 14px;        
+    }
+
+    .main-nav li {
+        margin: 0;
+        width: 100px;        
+    }
+
+    .long {
+        display: inline-block;
+       
+    }
+
+    .nav-links_content {
+        border-bottom: none;
+        display: inline-block;
+    }
+
+
+    /* Estilo para el logo */
+    .logo_content {
+        margin-top: 0;
+        margin-left: 15px;
+    }
+
+    .secondary-content {
+        display: inline;
+    }
+
+    .icons_content {
+        margin-right: 0;
+    }
+
 }
 
 
 
+@media screen and (min-width: 992px) {
 
 
-@media screen and (min-width: 780px) {
-
-
-    .navbar-toggle {
+    .navbar-toggle_content {
         display: none;
     }
 
-    .navbar {
+    .navbar_content {
         display: flex;
         justify-content: space-between;
         padding-bottom: 0;
@@ -176,14 +215,17 @@ body {
 
     .main-nav {
         display: flex;
-        margin-right: 30px;
+        
         flex-direction: row;
         justify-content: flex-end;
+        padding-top: 20px;
+        
     }
 
     .main-nav li {
         margin: 0;
         width: 150px;
+        
     }
 
     .long {
@@ -191,26 +233,27 @@ body {
        
     }
 
-    .nav-links {
+    .nav-links_content {
         border-bottom: none;
         display: inline-block;
         
     }
 
-    .logo {
+    .logo_content {
         margin-top: 0;
         margin-left: 15px;
     }
 
-    .logo:hover, .nav-links:hover {
+    .logo_content:hover, .nav-links_content:hover {
         color:rgb(218, 113, 113);
     }
 
-    .banner {
+    .banner_content {
         height: 350px;
     }
 
     .banner-text h1 {
         letter-spacing: .15em; 
     }
+
 }
