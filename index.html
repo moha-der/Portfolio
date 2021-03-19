@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>   
+  
+    <link rel="stylesheet" type="text/css" href="/css/navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" 
+    rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+    crossorigin="anonymous"/>
+
+    
+
+
+</head>
+<body>
+
+    <header>
+        <nav class="navbar_content">
+            
+            <span class="navbar-toggle_content" id="js-navbar-toggle_content">
+                <i class="fa fa-bars"></i>
+            </span>
+            <a href="#" class="logo_content">Mohammed</a>
+            
+            
+            <ul class="main-nav" id="js-menu_content">
+                <li>
+                    <div class="long">
+                        <i class="icons_content fa fa-user "></i>
+                        <div class="secondary-content">
+                            <a href="#" class="nav-links_content">Sobre mí</a>
+                        </div>
+                        
+                    </div>
+                    
+                </li>
+                <li>
+                    <div class="long">
+                        <i class="icons_content fa fa-university "></i>
+                        <div class="secondary-content">
+                            <a href="#" class="nav-links_content">Formación</a>
+                        </div>
+                        
+                    </div>
+                    
+                </li>
+                <li>
+                    <div class="long">
+                        <i class="icons_content fa fa-code "></i>
+                        <div class="secondary-content">
+                            <a href="#" class="nav-links_content">Habilidades</a>
+                        </div>                        
+                    </div>  
+                </li>
+                <li>
+                    <div class="long">
+                        <i class="icons_content fa fa-briefcase "></i>
+                        <div class="secondary-content">
+                            <a href="#" class="nav-links_content">Experiencia</a>
+                        </div>
+                        
+                    </div>
+                    
+                </li>
+                <li>
+                    <div class="long contact_class">
+                        <i class="icons_content fa fa-at "></i>
+                        <div class="secondary-content">
+                            <a href="#" class="nav-links_content">Contacto</a>
+                        </div>
+                        
+                    </div>
+                </li>
+            </ul>
+    </nav>
+    </header>
+
+    <div class="banner_content">
+        
+        <div class="banner-text">
+            <h1> Bienvenido!! </h1>
+        </div>
+          
+    </div>
+    
+    <div class="article-container">
+        <div class="row">
+
+        </div>
+        
+
+    </div>
+
+    <script>
+        let mainNav = document.getElementById('js-menu_content');
+        let navBarToggle = document.getElementById('js-navbar-toggle_content');
+
+        navBarToggle.addEventListener('click', function () {
+            
+            mainNav.classList.toggle('active_content');
+            
+        });
+    </script>
+</body>
+</html>
