@@ -193,7 +193,18 @@ body {
     .icons_content {
         margin-right: 0;
     }
+    
+    .logo_content:hover, .nav-links_content:hover {
+        color:rgb(218, 113, 113);
+    }
 
+    .banner_content {
+        height: 350px;
+    }
+
+    .banner-text h1 {
+        letter-spacing: .15em; 
+    }
 }
 
 
