@@ -118,7 +118,61 @@ body {
 }
   
 
+ 
+/* Contenedor del articulo sobre mi */
+.article-container {
+    background-color: rgba(231, 231, 231, 0.767);
+   
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
 
+/*Articulo sobre mi*/ 
+.article-sobremi {
+    background-color: rgba(255, 255, 255, 0.863);
+    border:  1px  solid black;
+    border-radius: 10px;
+    padding: 7px
+}
+
+
+
+.sobremi {
+    display: block;
+    border-bottom: 2px solid rgb(141, 138, 138);
+    color: rgb(218, 113, 113);
+}
+
+.contenedor-foto {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.mifotoperfil {
+    max-width: 200px;
+    height: 200px;
+    border: 3px solid rgb(150, 128, 99);
+    border-radius: 50%;
+}
+
+.contenedor-parrafo {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.contenedor-parrafo h5 {
+    font-family: 'Reggae One', cursive;
+}
+
+.icon-contenedor {
+    text-align: center;
+}
+
+.iconitos {
+    width: 70px;
+    height: 70px;
+}
 
 
 
@@ -205,6 +259,17 @@ body {
     .banner-text h1 {
         letter-spacing: .15em; 
     }
+    
+    .contenedor-parrafo {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: left;
+        border-left: 2px solid rgb(141, 138, 138);
+    }
+
+    .mifotoperfil {
+        margin-bottom: 10px;
+    }
 }
 
 
@@ -266,5 +331,17 @@ body {
     .banner-text h1 {
         letter-spacing: .15em; 
     }
+    
+    .contenedor-parrafo {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: left;
+        border-left: 2px solid rgb(141, 138, 138);
+    }
 
+    .mifotoperfil {
+        margin-bottom: 10px;
+    }
+
+    
 }
