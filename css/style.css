@@ -118,7 +118,7 @@ body {
 }
   
 
- 
+  
 /* Contenedor del articulo sobre mi */
 .article-container {
     background-color: rgba(231, 231, 231, 0.767);
@@ -133,7 +133,8 @@ body {
     background-color: rgba(255, 255, 255, 0.863);
     border:  1px  solid black;
     border-radius: 10px;
-    padding: 7px
+    padding: 7px;
+    margin-bottom: 10px;
 }
 
 
@@ -172,6 +173,8 @@ body {
 .iconitos {
     width: 70px;
     height: 70px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .titulo {
@@ -181,7 +184,6 @@ body {
     text-decoration: underline;
     margin-top: 10px;
 }
-
 
 
 
@@ -253,7 +255,7 @@ body {
     .icons_content {
         margin-right: 0;
     }
-    
+
     .logo_content:hover, .nav-links_content:hover {
         color:rgb(218, 113, 113);
     }
@@ -265,7 +267,7 @@ body {
     .banner-text h1 {
         letter-spacing: .15em; 
     }
-    
+
     .contenedor-parrafo {
         margin-top: 10px;
         margin-bottom: 10px;
@@ -276,11 +278,12 @@ body {
     .mifotoperfil {
         margin-bottom: 10px;
     }
-    
+
     .iconitos {
         width: 90px;
         height: 90px;
     }
+
 }
 
 
@@ -342,7 +345,8 @@ body {
     .banner-text h1 {
         letter-spacing: .15em; 
     }
-    
+
+
     .contenedor-parrafo {
         margin-top: 10px;
         margin-bottom: 10px;
@@ -362,5 +366,5 @@ body {
     .titulo {
         font-size: 25px;
     }
-    
+
 }
