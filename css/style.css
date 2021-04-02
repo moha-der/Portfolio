@@ -174,7 +174,13 @@ body {
     height: 70px;
 }
 
-
+.titulo {
+    text-shadow: 2px 2px 5px rgb(120, 159, 236);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 10px;
+}
 
 
 
@@ -270,6 +276,11 @@ body {
     .mifotoperfil {
         margin-bottom: 10px;
     }
+    
+    .iconitos {
+        width: 90px;
+        height: 90px;
+    }
 }
 
 
@@ -343,5 +354,13 @@ body {
         margin-bottom: 10px;
     }
 
+    .iconitos {
+        width: 100px;
+        height: 100px;
+    }
+
+    .titulo {
+        font-size: 25px;
+    }
     
 }
