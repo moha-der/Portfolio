@@ -7,6 +7,7 @@
 
 body {
     font-family: 'Josefin Sans', sans-serif;
+    background-color: rgba(231, 231, 231, 0.767);
 }
 
 /*-------------------------------------Responsive Mobile Design  ------------------------------------------*/
@@ -187,6 +188,47 @@ body {
 }
 
 
+#hr-id{
+    margin-bottom: 5px;
+}
+
+
+.social-media li {
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+    margin-right: 20px;
+    
+}
+
+.fa-linkedin {
+    background: rgb(3, 66, 190);
+    color: white;
+    width: 25px;
+    border: 1px solid rgb(120, 159, 236);
+    border-radius: 4px;
+}
+
+
+#git-id {
+    font-size: 24px;
+}
+
+.fa-github {
+    color: rgb(61, 66, 77);
+    width: 25;
+}
+
+.fa-instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    color: white;
+    width: 25px;
+    height: 25px;
+    padding: 1px 1px;
+    border: 1px solid;
+    border-radius: 4px;
+}
 
 @media screen and (max-width: 250px) {
     .logo_content {
